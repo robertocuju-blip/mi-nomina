@@ -13,9 +13,9 @@ Descarga `MiNomina-PC.zip` desde Releases y extrae **todo** el ZIP. Abre `nomina
 
 1. Guarda tus PDF en **Archivos → En mi iPhone → Nóminas**, con subcarpetas `2022`, `2023`, etc. si quieres. También puedes elegir una carpeta de iCloud o OneDrive que esté descargada.
 2. Abre la app móvil en Safari y pulsa Compartir → Añadir a pantalla de inicio.
-3. En la app pulsa **Abrir carpeta de nóminas** y selecciona esa carpeta. Lee los PDF de todas sus subcarpetas. La selección de carpetas requiere iOS 18.4 o posterior; también hay una opción para seleccionar PDF sueltos.
+3. En la app pulsa **Seleccionar carpeta** y selecciona esa carpeta. Lee los PDF de todas sus subcarpetas. La selección de carpetas requiere iOS 18.4 o posterior; también hay una opción para seleccionar PDF sueltos.
 4. Consulta el resumen, histórico, conceptos y PDF originales sin usar el PC. Puedes corregir datos en el detalle de cada recibo.
-5. Cuando guardes PDF nuevos en esa carpeta, pulsa **Actualizar desde carpeta** y vuelve a seleccionarla. La web no conserva acceso permanente a la carpeta ni la vigila en segundo plano. Los PDF sin cambios no se duplican.
+5. Cuando guardes PDF nuevos en esa carpeta, pulsa **Actualizar** y vuelve a seleccionarla. La web no conserva acceso permanente a la carpeta ni la vigila en segundo plano. Los PDF sin cambios no se duplican.
 
 La app lee los PDF en el propio dispositivo y conserva una copia local para usarlos sin conexión. No modifica los originales de tu carpeta. La primera apertura descarga el lector (aproximadamente 14 MB); después puede importar PDF descargados sin internet. Los PDF escaneados o formatos no reconocidos quedan pendientes de revisión; no incorpora OCR. Mantén copias de tus originales fuera del almacenamiento del navegador.
 
@@ -30,3 +30,7 @@ Comparte el enlace de la app y el ZIP original de Windows; **no compartas tu car
 La simulación orientativa se limita a Canarias y reglas de IRPF 2025; 2026 se muestra como proyección de esas reglas. No sustituye una declaración completa ni el cálculo oficial de retenciones. Verifica y actualiza las reglas de cada ejercicio.
 
 Las licencias de React se incluyen en `LICENSES.txt`. El lector usa Pyodide (licencia y fuentes enlazadas en `LICENSE-Pyodide.txt`) y CPython (`LICENSE-Python.txt`). Las licencias de pypdf y typing_extensions se incluyen en `lector-nominas.zip`. El paquete Windows incluye las de sus dependencias.
+
+## Versión 1.2
+
+Interfaz simplificada con una sola acción para actualizar la carpeta. Las explicaciones financieras se abren con los botones de información. Se reparan automáticamente las copias inequívocas del mismo PDF; las pagas distintas y los datos ambiguos se conservan. El menú ⋯ agrupa las opciones secundarias.
