@@ -1,6 +1,6 @@
 # Mi nómina
 
-Programa personal de nóminas para Windows y consulta instalable en iPhone.
+Aplicación personal de nóminas instalable en iPhone. Incluye lectura de PDF y simulación de IRPF sin necesitar el ordenador. También existe una edición de Windows.
 
 - [Abrir la app móvil](https://robertocuju-blip.github.io/mi-nomina/)
 - [Descargar el programa de Windows](https://github.com/robertocuju-blip/mi-nomina/releases/latest)
@@ -19,7 +19,9 @@ Descarga `MiNomina-PC.zip` desde Releases y extrae **todo** el ZIP. Abre `nomina
 
 La app lee los PDF en el propio dispositivo y conserva una copia local para usarlos sin conexión. No modifica los originales de tu carpeta. La primera apertura descarga el lector (aproximadamente 14 MB); después puede importar PDF descargados sin internet. Los PDF escaneados o formatos no reconocidos quedan pendientes de revisión; no incorpora OCR. Mantén copias de tus originales fuera del almacenamiento del navegador.
 
-El archivo `Consulta-iPhone.json` del PC sigue siendo una opción avanzada para traer sus datos o estimaciones fiscales; no es necesario para leer las nóminas. La simulación fiscal se prepara en el programa del PC. Importar PDF nuevos deja pendientes de actualizar las estimaciones anteriores.
+En **Renta**, revisa la previsión anual, completa tu edad y perfil, y pulsa **Calcular y guardar**. Se calcula y conserva en el propio móvil, también sin conexión. Los importes iniciales salen de las nóminas: la previsión pendiente usa el último mes ordinario y debes añadir las pagas extra y los cambios salariales. La cuota colegial parte de 140 € provisionales; escribe 0 € si no corresponde. Importar nóminas nuevas deja pendiente de revisión la estimación anterior.
+
+El archivo `Consulta-iPhone.json` del PC sigue siendo una opción avanzada para traer sus datos o estimaciones; no es necesario para utilizar la app.
 
 ## Privacidad y uso compartido
 
@@ -31,6 +33,8 @@ La simulación orientativa se limita a Canarias y reglas de IRPF 2025; 2026 se m
 
 Las licencias de React se incluyen en `LICENSES.txt`. El lector usa Pyodide (licencia y fuentes enlazadas en `LICENSE-Pyodide.txt`) y CPython (`LICENSE-Python.txt`). Las licencias de pypdf y typing_extensions se incluyen en `lector-nominas.zip`. El paquete Windows incluye las de sus dependencias.
 
-## Versión 1.2
+## Versión 1.3
+
+Simulador de IRPF local en el móvil, con perfil y previsión editables y resultado guardado por ejercicio. Se comparte el mismo motor de cálculo de Windows.
 
 Interfaz simplificada con una sola acción para actualizar la carpeta. Las explicaciones financieras se abren con los botones de información. Se reparan automáticamente las copias inequívocas del mismo PDF; las pagas distintas y los datos ambiguos se conservan. El menú ⋯ agrupa las opciones secundarias.
