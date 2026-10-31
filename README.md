@@ -29,12 +29,14 @@ Esta web distribuye solo el programa y el lector de PDF. No tiene cuentas, servi
 
 Comparte el enlace de la app y el ZIP original de Windows; **no compartas tu carpeta `data`, tu copia de consulta ni tus PDF**. Si borras el almacenamiento del navegador, importa de nuevo tu copia. Conserva copias de seguridad en el ordenador.
 
-La simulación orientativa se limita a Canarias y reglas de IRPF 2025; 2026 se muestra como proyección de esas reglas. No sustituye una declaración completa ni el cálculo oficial de retenciones. Verifica y actualiza las reglas de cada ejercicio.
+La simulación orientativa se limita a Canarias y tributación individual. Incluye parámetros de IRPF 2025 y 2026 contrastados con BOE/AEAT el 31/10/2026, incluida la deducción del trabajo de 2026. No sustituye una declaración completa ni el cálculo oficial de retenciones. Revisa cambios normativos posteriores.
+
+En **Renta → Normativa por ejercicio** puedes preparar otro año copiando el anterior, editar los importes con ayudas, guardar un borrador, revisar los cambios y aplicarlos. Las cuotas acumuladas de los tramos se calculan automáticamente. Los mínimos y fórmulas menos habituales quedan plegados en Parámetros adicionales. La configuración manual se identifica como tal y obliga a recalcular ese año. Puedes descargar una copia de normativa y restaurar los valores incluidos. La edición numérica no añade nuevas fórmulas ni situaciones que el motor no contemple.
 
 Las licencias de React se incluyen en `LICENSES.txt`. El lector usa Pyodide (licencia y fuentes enlazadas en `LICENSE-Pyodide.txt`) y CPython (`LICENSE-Python.txt`). Las licencias de pypdf y typing_extensions se incluyen en `lector-nominas.zip`. El paquete Windows incluye las de sus dependencias.
 
-## Versión 1.3
+## Versión 1.4
 
-Simulador de IRPF local en el móvil, con perfil y previsión editables y resultado guardado por ejercicio. Se comparte el mismo motor de cálculo de Windows.
+Simulador local con reglas propias de 2026 y asistente para actualizar la normativa por ejercicio sin editar código. El foco sigue siendo estimar la retención pendiente según los ingresos anuales y el IRPF ya retenido.
 
 Interfaz simplificada con una sola acción para actualizar la carpeta. Las explicaciones financieras se abren con los botones de información. Se reparan automáticamente las copias inequívocas del mismo PDF; las pagas distintas y los datos ambiguos se conservan. El menú ⋯ agrupa las opciones secundarias.
