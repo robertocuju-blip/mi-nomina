@@ -35,7 +35,11 @@ En **Renta → Normativa por ejercicio** puedes preparar otro año copiando el a
 
 Las licencias de React se incluyen en `LICENSES.txt`. El lector usa Pyodide (licencia y fuentes enlazadas en `LICENSE-Pyodide.txt`) y CPython (`LICENSE-Python.txt`). Las licencias de pypdf y typing_extensions se incluyen en `lector-nominas.zip`. El paquete Windows incluye las de sus dependencias.
 
-## Versión 1.4
+## Versión 1.5
+
+Lectura de devoluciones sin precio unitario y de determinadas fuentes Type3 sin mapa Unicode, sin OCR ni servicios externos. Las fuentes desconocidas siguen requiriendo revisión. Las cotizaciones se toman del detalle de cada recibo y las diferencias con resúmenes impresos quedan visibles. Los variables anuales se clasifican como extraordinarios para no proyectarlos como salario mensual.
+
+Al actualizar el lector, se releen automáticamente los PDF locales de versiones anteriores, conservando sus identificadores y las correcciones manuales. Si solo habías importado datos del PC y no hay original local, vuelve a seleccionar la carpeta. Los recibos nuevos requieren seleccionar sus PDF o actualizar la carpeta.
 
 Simulador local con reglas propias de 2026 y asistente para actualizar la normativa por ejercicio sin editar código. El foco sigue siendo estimar la retención pendiente según los ingresos anuales y el IRPF ya retenido.
 
