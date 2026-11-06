@@ -37,6 +37,8 @@ Las licencias de React se incluyen en `LICENSES.txt`. El lector usa Pyodide (lic
 
 ## Versión 1.6
 
+En la revisión 1.6.1 las correcciones manuales se indican como información, sin provocar por sí solas una etiqueta «Por revisar». Las comprobaciones aritméticas se recalculan al editar. En el detalle → Revisar datos → Volver a leer el PDF puedes sustituir las correcciones de ese recibo por una lectura nueva del original, incluidos sus conceptos y avisos. Si no se puede leer, se conservan los datos anteriores. Actualizar la carpeta sigue conservando las correcciones del mismo PDF; para quitarlas se utiliza ese botón.
+
 La vista refleja exclusivamente la última carpeta seleccionada. Cada PDF presente tiene su recibo; no se guardan versiones anteriores ni registros de archivos que ya no están. La actualización de datos y PDF locales es atómica: si falla el guardado, se conserva la lectura anterior y se avisa. Las ordinarias y extras se mantienen separadas en el archivo y se suman por mes en Evolución.
 
 ## Lector de PDF
